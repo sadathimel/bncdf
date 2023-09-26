@@ -12011,7 +12011,9 @@ header#banner nav.navbar .navbar-collapse .navbar-nav li li:nth-child(2n) a,
 
 body.front article.masthead,
 body.node-type-homepage article.masthead {
-  /* background: #00467f url("../../img/buhn/home-masthead-large.jpg") no-repeat 0 0; */
+  background: #00467f url("../../img/buhn/BNCDF_SLIDE-3-01-scaled.png")
+    no-repeat 0 0;
+  /* background: #00467f url("../../img/buhn/BNCDF_SLIDE-3-01-scaled.jpg") no-repeat 0 0; */
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -16322,7 +16324,10 @@ form.webform-client-form .form-actions .btn:active {
   body.front article.masthead,
   body.node-type-homepage article.masthead {
     margin-top: -200px;
-    background-image: url(./assets/img/buhn/BNCDF_SLIDE-3-01-scaled.jpg);
+    background: #00467f url("../../img/buhn/BNCDF_SLIDE-3-01-scaled.png")
+      no-repeat 0 0;
+
+    /* background-image: url("./assets/img/buhn/BNCDF_SLIDE-3-01-scaled.jpg"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
