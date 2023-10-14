@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About Bncdf</title>
+    <title>News - BNCDF</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-
+    <meta name="author" content="BUHN" />
     <meta name="robots" content="all" />
     <meta name="revisit-after" content="1 Days" />
     <meta property="og:locale" content="en-US" />
+    <meta property="og:site_name" content="BNCDF" />
     <meta
       property="og:image"
       content="./uploads/logo/logo_63972e9751a716-68071245-38310113.png"
@@ -18,14 +19,20 @@
     <meta property="og:image:width" content="180" />
     <meta property="og:image:height" content="50" />
     <meta property="og:type" content="website" />
-
+    <meta
+      property="og:title"
+      content="News - Bangladesh Urban Health Network (BUHN)"
+    />
     <meta property="og:description" content="" />
-    <meta property="og:url" content="." />
+    <meta property="og:url" content="https://buhn.org" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="BUHN" />
 
-    <meta name="twitter:description" content="" />
- 
-
+    <link
+      rel="alternate"
+      href="https://buhn.org/news-section"
+      hreflang="en-US"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
       rel="stylesheet"
@@ -47,12 +54,12 @@
     <!--
     <link href="" rel="stylesheet"/>
     -->
-    <!-- bncdf theme -->
+    <!-- buhn theme -->
     <style type="text/css" media="all">
       @import url("./assets/css/buhn/system_base.css");
     </style>
     <link rel="stylesheet" href="./assets/css/buhn/style.css" />
-    <!-- bncdf theme-->
+    <!-- buhn theme-->
     <script src="./assets/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
       <!--//--><![CDATA[//><!--
@@ -87,8 +94,8 @@
         Typekit.load();
       } catch (e) {}
     </script>
-    <!-- ends bncdf-->
-    <!-- ends bncdf theme -->
+    <!-- ends buhn-->
+    <!-- ends buhn theme -->
     <script>
       var rtl = false;
     </script>
@@ -264,7 +271,7 @@
     </style>
     <script>
       var InfConfig = {
-        baseUrl: ".",
+        baseUrl: "",
         csrfTokenName: "app_csrf_token",
         csrfCookieName: "infapp_csrf_cookie",
         sysLangId: "1",
@@ -1101,10 +1108,7 @@
       }
     </style>
   </head>
-  <!-- 
-html front not-logged-in no-sidebars page-node page-node- page-node-4793 node-type-homepage i18n-en role-anonymous-user
-html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-4766 node-type-page i18n-en role-anonymous-user
--->
+
   <body class="front node-type-homepage sans-serif">
     <style>
       #btn_modal_newsletter {
@@ -1137,7 +1141,7 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                   <ul class="social">
                     <li>
                       <a
-                        href="https://www.facebook.com/"
+                        href="https://www.facebook.com/profile.php?id=100069691086066"
                         target="_blank"
                         ><i class="fa fa-facebook"></i
                       ></a>
@@ -1166,12 +1170,9 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                     ><i class="fa fa-envelope-o"></i>Subscribe to our
                     e-Newsletter</a
                   >
-                  <a href="./login" class="login-link"
+                  <a href="./logon.html" class="login-link"
                     ><i class="fa fa-user"></i>&nbspLogin</a
                   >
-                  <!--
-                                        <a href="./register" class="login-link register"><i class="fa fa-user"></i>&nbspRegister</a>
-                                        -->
 
                   <div class="region region-search">
                     <div id="block-search-form" class="block block-search">
@@ -1233,17 +1234,15 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
               <div
                 class="col-xs-12 col-sm-5 col-sm-pull-7 col-md-5 col-md-pull-6 col-lg-6 col-lg-pull-5"
               >
-              
                 <h2>
-                  <a href="."
+                  <a href="https://buhn.org"
                     ><img
-                      src="./uploads/logo/WEb-BNCDF-LOG-01-01-copy.png"
+                      src="https://buhn.org/uploads/logo/logo_63972e9751a716-68071245-38310113.png"
                       alt="logo"
                       width="180"
                       height="50"
@@ -1264,7 +1263,6 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
             </div>
           </div>
         </div>
-       0
       </div>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -1276,47 +1274,53 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                     <div class="content">
                       <ul role="menu" class="nav navbar-nav">
                         <li class="" role="menuitem">
-                          <a href=".">Home</a>
+                          <a href="./index.html">Home</a>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./why-urban-health">Why Urban Health</a>
+                          <a href="https://buhn.org/why-urban-health"
+                            >Why Urban Health</a
+                          >
                           <ul class="dropdown-menu">
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./urban-health">Urban Health</a>
+                              <a href="https://buhn.org/urban-health"
+                                >Urban Health</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./urban-health-and-sdgs"
+                              <a href="https://buhn.org/urban-health-and-sdgs"
                                 >Urban Health and SDGs</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./urban-health-and-climate-change"
+                              <a
+                                href="https://buhn.org/urban-health-and-climate-change"
                                 >Urban Health and Climate Change</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./urban-health-and-ncds"
+                              <a href="https://buhn.org/urban-health-and-ncds"
                                 >Urban Health and NCDs</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./urban-health-and-nutrition"
+                              <a
+                                href="https://buhn.org/urban-health-and-nutrition"
                                 >Urban Health and Nutrition</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./video-stories-of-change"
+                              <a href="https://buhn.org/video-stories-of-change"
                                 >Video Stories of Change</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./voices-of-urban-health"
+                              <a href="https://buhn.org/voices-of-urban-health"
                                 >Voices of Urban Health</a
                               >
                               <!-- Multi submenu-->
@@ -1324,108 +1328,129 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                           </ul>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./who-we-are">Who We Are</a>
+                          <a href="https://buhn.org/who-we-are">Who We Are</a>
                           <ul class="dropdown-menu">
-                            <li role="menuitem" class="dropdown-toggle active">
-                              <a href="./about-buhn">About BNCDF</a>
+                            <li role="menuitem" class="dropdown-toggle">
+                              <a href="https://buhn.org/about-buhn"
+                                >About BUHN</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./buhn-structure">BNCDF Structure</a>
+                              <a href="https://buhn.org/buhn-structure"
+                                >BUHN Structure</a
+                              >
                               <!-- Multi submenu-->
                               <ul class="dropdown-menu multilink">
                                 <li role="menuitem">
-                                  <a href="./our-team">Our Team</a>
+                                  <a href="https://buhn.org/our-team"
+                                    >Our Team</a
+                                  >
                                 </li>
                                 <li role="menuitem">
-                                  <a href="./executive -committee"
+                                  <a
+                                    href="https://buhn.org/executive -committee"
                                     >Executive Committee</a
                                   >
                                 </li>
                                 <li role="menuitem">
-                                  <a href="./advisory-committee"
+                                  <a href="https://buhn.org/advisory-committee"
                                     >Advisory Committee</a
                                   >
                                 </li>
                                 <li role="menuitem">
-                                  <a href="./general-members"
+                                  <a href="https://buhn.org/general-members"
                                     >General Members</a
                                   >
                                 </li>
                               </ul>
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./become-a-member">Become a Member</a>
+                              <a href="https://buhn.org/become-a-member"
+                                >Become a Member</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./buhn-partners">BNCDF Partners</a>
+                              <a href="https://buhn.org/buhn-partners"
+                                >BUHN Partners</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./buhn-network">BNCDF Network</a>
+                              <a href="https://buhn.org/buhn-network"
+                                >BUHN Network</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                           </ul>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./what-we-do">What We Do</a>
+                          <a href="https://buhn.org/what-we-do">What We Do</a>
                           <ul class="dropdown-menu">
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./advocacy">Advocacy</a>
+                              <a href="https://buhn.org/advocacy">Advocacy</a>
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./accountability">Accountability</a>
+                              <a href="https://buhn.org/accountability"
+                                >Accountability</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./capacity-development"
+                              <a href="https://buhn.org/capacity-development"
                                 >Capacity Development</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./knowledge-exchange"
+                              <a href="https://buhn.org/knowledge-exchange"
                                 >Knowledge Exchange</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./convening">Convening</a>
+                              <a href="https://buhn.org/convening">Convening</a>
                               <!-- Multi submenu-->
                             </li>
                           </ul>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./resources">Resources</a>
+                          <a href="https://buhn.org/resources">Resources</a>
                           <ul class="dropdown-menu">
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./publications-and-multimedia"
+                              <a
+                                href="https://buhn.org/publications-and-multimedia"
                                 >Publications and Multimedia</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./statements-submissions-and-briefings"
+                              <a
+                                href="https://buhn.org/statements-submissions-and-briefings"
                                 >Statements, Submissions and Briefings</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./buhn-resource-library"
-                                >BNCDF Resource Library</a
+                              <a href="https://buhn.org/buhn-resource-library"
+                                >BUHN Resource Library</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./e-newsletter">e-Newsletter</a>
+                              <a href="https://buhn.org/e-newsletter"
+                                >e-Newsletter</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                           </ul>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./news-events">News &amp; Events</a>
+                          <a href="https://buhn.org/news-events"
+                            >News &amp; Events</a
+                          >
                           <ul class="dropdown-menu">
                             <li role="menuitem" class="dropdown-toggle">
                               <a href="news-section">News</a>
@@ -1440,32 +1465,38 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./media-contacts">Media Contacts</a>
+                              <a href="https://buhn.org/media-contacts"
+                                >Media Contacts</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./infographic">Infographic</a>
+                              <a href="https://buhn.org/infographic"
+                                >Infographic</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                           </ul>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
-                          <a href="./join-us">Join Us</a>
+                          <a href="https://buhn.org/join-us">Join Us</a>
                           <ul class="dropdown-menu">
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./join-us-as-a-member"
+                              <a href="https://buhn.org/join-us-as-a-member"
                                 >Join Us as a Member</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./join-us-as-a-partner"
+                              <a href="https://buhn.org/join-us-as-a-partner"
                                 >Join Us as a Partner</a
                               >
                               <!-- Multi submenu-->
                             </li>
                             <li role="menuitem" class="dropdown-toggle">
-                              <a href="./employment">Employment</a>
+                              <a href="https://buhn.org/employment"
+                                >Employment</a
+                              >
                               <!-- Multi submenu-->
                             </li>
                           </ul>
@@ -1479,25 +1510,6 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
           </div>
         </div>
       </nav>
-      <!--
-    <nav class="navbar navbar-inverse" role="banner">
-        <div class="container-fluid nav-top-container">
-                    </div>
-        <div class="container nav-container">
-                    </div>
-        <div class="mobile-nav-container">
-                    </div>
-    </nav>
-
-    <div class="modal-search">
-        <form action="./search" method="get">
-            <div class="container">
-                <input type="text" name="q" class="form-control" maxlength="300" pattern=".*\S+.*" placeholder="Search..." required>
-                <i class="icon-close s-close"></i>
-            </div>
-        </form>
-    </div>
--->
     </header>
 
     <div id="overlay_bg" class="overlay-bg"></div>
@@ -1556,349 +1568,908 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
       </div>
     </div>
     <section id="main">
-      <div class="main-img-clip">
-        <img
-          class="img-responsive force-width"
-          src="./uploads/images/202301/image_1800x_63bdd07504643.jpg"
-          width="1800"
-          height="900"
-          alt=""
-        />
-      </div>
-      <!-- First Section -->
-      <section class="first-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <article class="slab inset slab-bluegrad">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-7">
-                    <header>
-                      <h1 class="page-title title">About BNCDF</h1>
-                      <div class="breadcrumb">
-                        <h2 class="small">
-                          <a href=".">Home</a> / About BNCDF
-                        </h2>
-                      </div>
-                      <!--
-										<p class="lead">Noncommunicable diseases (NCDs) – mainly cancer, cardiovascular
-											disease, chronic respiratory diseases, and diabetes – are the #1 cause of
-											death and disability worldwide.</p>
-											-->
-                    </header>
-                  </div>
-                  <!--
-								<div class="col-sm-4 col-sm-push-1 placeholder-img-link">
-									<a
-										href="../resources/bridging-the-gap-on-ncds-from-global-promises-to-local-progress-policy-brief.html">
-										<span class="img hidden-xs"> <img class="img-responsive"
-												src="" alt="" /></span>
-										
-									</a>
-								</div>
-								-->
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End First Section -->
       <div class="container">
         <div class="row">
-          <div class="page-content">
-            <div class="col-sm-12 col-md-8">
-              <div class="content page-about page-res">
-                <!--<h1 class="page-title"></h1>-->
-                <div class="text-style">
-                  <p>
-                    Bangladesh is rapidly urbanizing. About 38% of the
-                    population resides in urban areas. However, increased
-                    urbanization has a terrible impact on the health of people,
-                    particularly the most vulnerable communities. Cities have
-                    experienced a large increase in communicable and
-                    noncommunicable diseases due to urbanization. It is
-                    aggravated by unhealthy living conditions that reflect the
-                    poor economic circumstances of urban residents.
-                  </p>
-                  <p>
-                    Bangladesh Urban Health Network (BUHN) is a civil society
-                    network formed in 2015. &nbsp;It regularly engages in
-                    advocacy. It also works as a pressure organization, bringing
-                    together different players in the urban health sector to
-                    collaborate on issues of health equity. It runs social media
-                    campaigns to raise awareness on urban health. Furthermore,
-                    BUHN regularly organizes conferences by partnering with
-                    other organizations. All of these activities are geared
-                    towards one goal, to address and find potential solutions to
-                    problems of the health sector in urban areas, so that people
-                    can live a safer and healthier life.
-                  </p>
-                  <h2>Our History</h2>
-                  <p>
-                    In 2009, after joining the 8th International Conference on
-                    Urban Health (ICUH 2009) held in Nairobi, Eminence
-                    Bangladesh initiated Bangladesh Urban Health Network (BUHN).
-                    Since then, it has been collaborating with other
-                    organizations and policymakers to improve health services
-                    and equity in urban areas and raise awareness. In 2015, the
-                    12th International Conference on Urban Health (ICUH 2015)
-                    was organized by BUHN in partnership with International
-                    Society of Urban Health and New York Academy of Medicine. It
-                    was the first conference on urban health in Asia.
-                  </p>
-                  <div class="col-sm-6">
-                    <p>
-                      <img
-                        src="./uploads/images/202303/image_750x_64215141a9166.jpg"
-                        alt=""
-                      />
-                    </p>
-                    Our vision is to become a central hub for the creation,
-                    dissemination, and use of cutting-edge information about
-                    urban health among researchers, policymakers, and
-                    practitioners to ensure that all people living in urban
-                    areas have equal access to health care.
+          <div class="page-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="https://buhn.org">Home</a>
+              </li>
+              <li class="breadcrumb-item active">News</li>
+            </ol>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8">
+            <div class="content">
+              <h1 class="page-title">Category: News</h1>
+              <div class="col-xs-12 col-sm-12 posts">
+                <div class="row">
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/4th-ec-meeting-of-bangladesh-urban-health-network-buhn"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202310/image_650x433_652101a705cdf.jpg"
+                          class="lazyload img-responsive"
+                          alt="“4th EC meeting of Bangladesh Urban Health Network (BUHN)”"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/4th-ec-meeting-of-bangladesh-urban-health-network-buhn"
+                          >“4th EC meeting of Bangladesh Urban Health Network
+                          (BUH...</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Oct 7,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;22</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        The fourth meeting of the Executive Committee (EC) for
+                        the Bangladesh Urban Health Network (BUHN) took place on
+                        27 September 2023, at the Unicef Office, Dhaka. The main
+                        objective of this meeting was to discuss the progress of
+                        Bangladesh Urban Health ...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/4th-ec-meeting-of-bangladesh-urban-health-network-buhn"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-sm-6">
-                    <p>
-                      <img
-                        src="./uploads/images/202303/image_750x_642151415d4e7.jpg"
-                        alt=""
-                      />
-                    </p>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/introductory-meeting-of-buhn-with-dghs-mohfw"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202309/image_650x433_64feee6434fd6.jpg"
+                          class="lazyload img-responsive"
+                          alt="“Introductory Meeting of BUHN with DGHS, MoHFW”"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/introductory-meeting-of-buhn-with-dghs-mohfw"
+                          >“Introductory Meeting of BUHN with DGHS, MoHFW”</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Sep 11,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;140</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        The introductory meeting between Bangladesh Urban Health
+                        Network (BUHN) with theDirectorate General of Health
+                        Services (DGHS) of the Ministry of Health and
+                        FamilyWelfare, Government of Bangladesh was successfully
+                        held on 28 August 2023 at the NewDGHS...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/introductory-meeting-of-buhn-with-dghs-mohfw"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-sm-12">
-                    <h2>Our Objectives</h2>
-                    <p>
-                      The objects for which the Network is established are all
-                      or any of the following:
-                    </p>
-                    <ul>
-                      <li>
-                        To act as a platform for policy advocacy to enhance the
-                        status of urban heath in Bangladesh;
-                      </li>
-                      <li>
-                        To facilitate the exchange of perspectives, research
-                        methods, knowledge and data on the study of diseases in
-                        urban areas;
-                      </li>
-                      <li>
-                        To advocate for programs that reduce urban health
-                        hazards and promote well-being of people living in urban
-                        areas;
-                      </li>
-                      <li>
-                        To provide an informal and open association for review
-                        and discussion of issues of common interest with focus
-                        on urban health.
-                      </li>
-                    </ul>
+                  <div class="col-sm-12 col-xs-12"></div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/bangladesh-urban-health-network-buhn-holds-inaugural-ac-meeting"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202307/image_650x433_64ae975a14c2b.jpg"
+                          class="lazyload img-responsive"
+                          alt="Bangladesh Urban Health Network (BUHN) Holds Inaugural AC Meeting"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/bangladesh-urban-health-network-buhn-holds-inaugural-ac-meeting"
+                          >Bangladesh Urban Health Network (BUHN) Holds
+                          Inaugural ...</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Jul 6,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;78</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        Dhaka, Bangladesh - On June 26, 2023, Bangladesh Urban
+                        Health Network (BUHN) held itsfirst Advisory Committee
+                        (AC) meeting. Due to the participants&#039; busy
+                        schedules, the meetingtook place online via the Zoom
+                        platform. The primary objective of the meet...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/bangladesh-urban-health-network-buhn-holds-inaugural-ac-meeting"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-sm-8">
-                    <h2>STRATEGIC PLAN</h2>
-                    <p>
-                      BUHN is looking forward to working with donor
-                      organizations to build a SMART (Specific, Measurable,
-                      Attainable, Realistic, Time bound) strategic plan for the
-                      upcoming year
-                    </p>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/bangladesh-urban-health-network-buhn-conducts-2nd-ec-meeting"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202306/image_650x433_647b94dac9e74.jpg"
+                          class="lazyload img-responsive"
+                          alt="Bangladesh Urban Health Network (BUHN) Conducts 2nd EC Meeting"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/bangladesh-urban-health-network-buhn-conducts-2nd-ec-meeting"
+                          >Bangladesh Urban Health Network (BUHN) Conducts 2nd
+                          EC ...</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Jun 4,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;51</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        Dhaka, Bangladesh - On May 30, 2023, Bangladesh Urban
+                        Health Network (BUHN) held its second Executive
+                        Committee (EC) meeting on May 30, 2023, at the UNICEF
+                        Office in Dhaka. The meeting aimed to review progress,
+                        discuss key agenda items, and make impo...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/bangladesh-urban-health-network-buhn-conducts-2nd-ec-meeting"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div
-                    class="col-sm-4"
-                    style="text-align: center; padding-top: 50px"
-                  ></div>
-                  <div class="col-sm-8">
-                    <h2>ANNUAL REPORT</h2>
-                    <p>
-                      BUHN is currently working on its annual report. It will be
-                      uploaded on the website once it is completed.
-                    </p>
+                  <div class="col-sm-12 col-xs-12"></div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/highlights-from-demographic-and-health-survey-2022"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202305/image_650x433_64569f8327743.jpg"
+                          class="lazyload img-responsive"
+                          alt="Highlights from Demographic and Health Survey 2022"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/highlights-from-demographic-and-health-survey-2022"
+                          >Highlights from Demographic and Health Survey 2022</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;May 7,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;52</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        The under-5 death rate has decreased significantly from
+                        43 per thousand in 2017 to 31 per thousand in 2022,
+                        according to the Bangladesh Demographic and Health
+                        Survey 2022. The report shows that the rate of stunted
+                        growth among children under the age ...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/highlights-from-demographic-and-health-survey-2022"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <div
-                    class="col-sm-4"
-                    style="text-align: center; padding-top: 50px"
-                  ></div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/understanding-the-social-determinants-of-urban-health"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202304/image_650x433_642cff1e45043.jpg"
+                          class="lazyload img-responsive"
+                          alt="Understanding the Social Determinants of Urban Health"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/understanding-the-social-determinants-of-urban-health"
+                          >Understanding the Social Determinants of Urban
+                          Health</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Apr 5,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;112</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        Housing, food, schooling, health behaviors, work, gender
+                        violence, social support, environment, and
+                        transportation are just some of the many social factors
+                        that impact an individual&#039;s access to healthcare,
+                        the quality of that service, and their healt...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/understanding-the-social-determinants-of-urban-health"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-xs-12"></div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/executive-committee-members-two-year-term"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202303/image_650x433_64075808e1106.jpg"
+                          class="lazyload img-responsive"
+                          alt="Bangladesh Urban Health Network (BUHN) Selects Executive Committee Members for Two-Year Term"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/executive-committee-members-two-year-term"
+                          >Bangladesh Urban Health Network (BUHN) Selects
+                          Executiv...</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Mar 7,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;159</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        Dhaka, Bangladesh - On March 7, 2023, the executive
+                        committee of the Bangladesh Urban Health Network (BUHN)
+                        held a meeting at the UNICEF office of Bangladesh to
+                        select its 15-member committee, who will serve for the
+                        next two years. Md. Abul Kalam Aza...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/executive-committee-members-two-year-term"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a
+                        href="https://buhn.org/meeting-minutes-of-the-virtual-meeting-of-the-urban-health-working-group"
+                      >
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202303/image_650x433_640476a35638f.jpg"
+                          class="lazyload img-responsive"
+                          alt="Meeting Minutes of the Virtual Meeting of the Urban Health Working Group"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a
+                          href="https://buhn.org/meeting-minutes-of-the-virtual-meeting-of-the-urban-health-working-group"
+                          >Meeting Minutes of the Virtual Meeting of the Urban
+                          Hea...</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Mar 5,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;62</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        The second meeting of the Urban Health Working Group
+                        (UbHWG) took place virtually on January 29, 2023 at
+                        10:00 a.m. Mr. Mustakim Billah Faruqui, Additional
+                        Secretary (Urban Development), Local Government Division
+                        (UGD) of the Ministry of Local Govern...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/meeting-minutes-of-the-virtual-meeting-of-the-urban-health-working-group"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-xs-12"></div>
+                  <div class="post-item-horizontal">
+                    <div class="item-image">
+                      <a href="https://buhn.org/news-section">
+                        <span class="label-post-category">News</span>
+                      </a>
+                      <a href="https://buhn.org/workshop-of-concern-worldwide">
+                        <img
+                          src="https://buhn.org/assets/img/bg_slider.png"
+                          data-src="https://buhn.org/uploads/images/202303/image_650x433_641c2cac68feb.jpg"
+                          class="lazyload img-responsive"
+                          alt="Workshop of Concern Worldwide"
+                          onerror="javascript:this.src='https://buhn.org/assets/img/bg_slider.png'"
+                          width="650"
+                          height="433"
+                        />
+                      </a>
+                    </div>
+                    <div class="item-content">
+                      <h3 class="title">
+                        <a href="https://buhn.org/workshop-of-concern-worldwide"
+                          >Workshop of Concern Worldwide</a
+                        >
+                      </h3>
+                      <div class="post-meta">
+                        <p class="post-meta-inner">
+                          <span
+                            ><i class="icon-clock"></i>&nbsp;&nbsp;Mar 5,
+                            2023</span
+                          >
+                          <span><i class="icon-eye"></i>&nbsp;69</span>
+                        </p>
+                      </div>
+                      <p class="summary">
+                        Leaving No-One Behind in Bangladesh&amp;rsquo;s Urban
+                        Contexts 2023-2027 National Level Workshop Overview of
+                        the program Concern Worldwide is the biggest aid and
+                        humanitarian agency in Ireland. Along with Bangladesh,
+                        they work in various Asian and Afr...
+                      </p>
+                      <div class="post-buttons">
+                        <a
+                          href="https://buhn.org/workshop-of-concern-worldwide"
+                          class="pull-right read-more"
+                        >
+                          Read More
+                          <i
+                            class="icon-arrow-right read-more-i"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="col-xs-12 col-sm-12">
+                <div class="row"></div>
+              </div>
+              <div class="col-xs-12 col-sm-12">
+                <div class="row"></div>
+              </div>
             </div>
-            <div id="sidebar" class="col-xs-12 col-sm-4 col-sm-push-1">
-              <div class="sidebar">
-                <aside
-                  id="block-menu-block-3"
-                  class="block block-menu-block panel panel-default panel-border panel-navigation"
-                >
-                  <div class="inset">
-                    <header class="panel-heading">
-                      <h1 class="panel-title">In this section</h1>
-                    </header>
-                    <div class="panel-body">
-                      <ul role="menu" class="panel-list">
-                        <li class="active" role="menuitem">
-                          <a href="./about-buhn">About BNCDF</a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <div class="sidebar">
+              <div
+                class="col-sm-12 col-xs-12 sidebar-widget widget-popular-posts"
+              >
+                <div class="row">
+                  <div class="widget-title widget-popular-posts-title">
+                    <h4 class="title">Popular Posts</h4>
+                  </div>
+                  <div class="col-sm-12 widget-body">
+                    <div class="row">
+                      <ul class="widget-list w-popular-list">
+                        <li>
+                          <div class="left">
+                            <a href="https://buhn.org/the-story-of-tomisra">
+                              <img
+                                src="https://buhn.org/assets/img/bg_small.png"
+                                data-src="https://buhn.org/uploads/images/202309/image_100x75_64feb9045943e.jpg"
+                                class="lazyload img-responsive"
+                                alt="The Story of Tomisra"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_small.png'"
+                                width="100"
+                                height="75"
+                              />
+                            </a>
+                          </div>
+                          <div class="right">
+                            <h3 class="title">
+                              <a href="https://buhn.org/the-story-of-tomisra"
+                                >The Story of Tomisra</a
+                              >
+                            </h3>
+                            <div class="post-meta">
+                              <p class="post-meta-inner">
+                                <span
+                                  ><i class="icon-clock"></i>&nbsp;&nbsp;Sep 11,
+                                  2023</span
+                                >
+                                <span><i class="icon-eye"></i>&nbsp;386</span>
+                              </p>
+                            </div>
+                          </div>
                         </li>
-                        <li role="menuitem">
-                          <a href="./buhn-structure">BNCDF Structure</a>
+                        <li>
+                          <div class="left">
+                            <a
+                              href="https://buhn.org/executive-committee-members-two-year-term"
+                            >
+                              <img
+                                src="https://buhn.org/assets/img/bg_small.png"
+                                data-src="https://buhn.org/uploads/images/202303/image_100x75_64075808d3b7d.jpg"
+                                class="lazyload img-responsive"
+                                alt="Bangladesh Urban Health Network (BUHN) Selects Executive Committee Members for Two-Year Term"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_small.png'"
+                                width="100"
+                                height="75"
+                              />
+                            </a>
+                          </div>
+                          <div class="right">
+                            <h3 class="title">
+                              <a
+                                href="https://buhn.org/executive-committee-members-two-year-term"
+                                >Bangladesh Urban Health Network (BUHN) Selects
+                                Executiv...</a
+                              >
+                            </h3>
+                            <div class="post-meta">
+                              <p class="post-meta-inner">
+                                <span
+                                  ><i class="icon-clock"></i>&nbsp;&nbsp;Mar 7,
+                                  2023</span
+                                >
+                                <span><i class="icon-eye"></i>&nbsp;159</span>
+                              </p>
+                            </div>
+                          </div>
                         </li>
-                        <li role="menuitem">
-                          <a href="./become-a-member">Become a Member</a>
+                        <li>
+                          <div class="left">
+                            <a
+                              href="https://buhn.org/introductory-meeting-of-buhn-with-dghs-mohfw"
+                            >
+                              <img
+                                src="https://buhn.org/assets/img/bg_small.png"
+                                data-src="https://buhn.org/uploads/images/202309/image_100x75_64feee641b036.jpg"
+                                class="lazyload img-responsive"
+                                alt="“Introductory Meeting of BUHN with DGHS, MoHFW”"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_small.png'"
+                                width="100"
+                                height="75"
+                              />
+                            </a>
+                          </div>
+                          <div class="right">
+                            <h3 class="title">
+                              <a
+                                href="https://buhn.org/introductory-meeting-of-buhn-with-dghs-mohfw"
+                                >“Introductory Meeting of BUHN with DGHS,
+                                MoHFW”</a
+                              >
+                            </h3>
+                            <div class="post-meta">
+                              <p class="post-meta-inner">
+                                <span
+                                  ><i class="icon-clock"></i>&nbsp;&nbsp;Sep 11,
+                                  2023</span
+                                >
+                                <span><i class="icon-eye"></i>&nbsp;140</span>
+                              </p>
+                            </div>
+                          </div>
                         </li>
-                        <li role="menuitem">
-                          <a href="./buhn-partners">BNCDF Partners</a>
+                        <li>
+                          <div class="left">
+                            <a
+                              href="https://buhn.org/teenage-pregnancy-motherhood-increased-in-urban-areas"
+                            >
+                              <img
+                                src="https://buhn.org/assets/img/bg_small.png"
+                                data-src="https://buhn.org/uploads/images/202301/image_100x75_63d26eb152961.jpg"
+                                class="lazyload img-responsive"
+                                alt="Teenage pregnancy, motherhood increased in urban areas"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_small.png'"
+                                width="100"
+                                height="75"
+                              />
+                            </a>
+                          </div>
+                          <div class="right">
+                            <h3 class="title">
+                              <a
+                                href="https://buhn.org/teenage-pregnancy-motherhood-increased-in-urban-areas"
+                                >Teenage pregnancy, motherhood increased in
+                                urban areas</a
+                              >
+                            </h3>
+                            <div class="post-meta">
+                              <p class="post-meta-inner">
+                                <span
+                                  ><i class="icon-clock"></i>&nbsp;&nbsp;Jan 26,
+                                  2023</span
+                                >
+                                <span><i class="icon-eye"></i>&nbsp;123</span>
+                              </p>
+                            </div>
+                          </div>
                         </li>
-                        <li role="menuitem">
-                          <a href="./buhn-network">BNCDF Network</a>
+                        <li>
+                          <div class="left">
+                            <a
+                              href="https://buhn.org/understanding-the-social-determinants-of-urban-health"
+                            >
+                              <img
+                                src="https://buhn.org/assets/img/bg_small.png"
+                                data-src="https://buhn.org/uploads/images/202304/image_100x75_642cff1e26f82.jpg"
+                                class="lazyload img-responsive"
+                                alt="Understanding the Social Determinants of Urban Health"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_small.png'"
+                                width="100"
+                                height="75"
+                              />
+                            </a>
+                          </div>
+                          <div class="right">
+                            <h3 class="title">
+                              <a
+                                href="https://buhn.org/understanding-the-social-determinants-of-urban-health"
+                                >Understanding the Social Determinants of Urban
+                                Health</a
+                              >
+                            </h3>
+                            <div class="post-meta">
+                              <p class="post-meta-inner">
+                                <span
+                                  ><i class="icon-clock"></i>&nbsp;&nbsp;Apr 5,
+                                  2023</span
+                                >
+                                <span><i class="icon-eye"></i>&nbsp;112</span>
+                              </p>
+                            </div>
+                          </div>
                         </li>
                       </ul>
                     </div>
                   </div>
-                </aside>
-                <style>
-                  .post-share {
-                    width: 100%;
-                    float: left;
-                  }
-                  .post-share .btn-share {
-                    display: block;
-                    float: left;
-                    border: 0;
-                    background-color: #ececec;
-                    text-decoration: none;
-                    font-size: 13px;
-                    color: #fff;
-                    margin-right: 10px;
-                    width: 50px;
-                    max-width: 110px;
-                    height: 40px;
-                    line-height: 34px;
-                    text-align: center;
-                    margin-bottom: 10px;
-                    border-radius: 2px;
-                  }
-                  .post-share .facebook {
-                    background-color: #3b5998;
-                  }
-                  .post-share .twitter {
-                    background-color: #55acee;
-                  }
-                  .post-share .whatsapp {
-                    background: #2cb742;
-                  }
-                  .post-share .linkedin {
-                    background-color: #0077b5;
-                  }
-                  .post-share .btn-share i {
-                    font-size: 16px;
-                  }
-                </style>
-                <aside class="panel panel-default panel-border panel-tools">
-                  <header class="panel-heading">
-                    <h1 class="panel-title">Share</h1>
-                  </header>
-                  <div class="inset">
-                    <div class="panel-body">
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                          <div class="post-share">
-                            <a
-                              href="javascript:void(0)"
-                              onclick="window.open('#', 'Share This Post', 'width=640,height=450');return false"
-                              class="btn-share share facebook"
-                            >
-                              <i class="icon-facebook"></i
-                              ><span class="hidden-sm">Facebook</span>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xs-12 sidebar-widget">
+                <div class="row">
+                  <div class="widget-title widget-popular-posts-title">
+                    <h4 class="title">Our Picks</h4>
+                  </div>
+                  <div class="col-sm-12 widget-body">
+                    <div class="row">
+                      <ul class="widget-list w-our-picks-list">
+                        <li>
+                          <div class="post-image">
+                            <a href="https://buhn.org/blog-section">
+                              <span class="label-post-category">Blog</span>
                             </a>
                             <a
-                              href="javascript:void(0)"
-                              onclick="window.open('#', 'Share This Post', 'width=640,height=450');return false"
-                              class="btn-share share twitter"
+                              href="https://buhn.org/adolescent-mental-health-requires-more-attention"
                             >
-                              <i class="icon-twitter"></i
-                              ><span class="hidden-sm">Twitter</span>
-                            </a>
-                            <a
-                              href="#"
-                              target="_blank"
-                              class="btn-share share whatsapp"
-                            >
-                              <i class="icon-whatsapp"></i
-                              ><span class="hidden-sm">Whatsapp</span>
-                            </a>
-                            <a
-                              href="javascript:void(0)"
-                              onclick="window.open('#', 'Share This Post', 'width=640,height=450');return false"
-                              class="btn-share share linkedin"
-                            >
-                              <i class="icon-linkedin"></i
-                              ><span class="hidden-sm">Linkedin</span>
+                              <img
+                                src="https://buhn.org/assets/img/bg_mid.png"
+                                data-src="https://buhn.org/uploads/images/202301/image_750x415_63d26fefb0f70.jpg"
+                                class="lazyload img-responsive"
+                                alt="Adolescent mental health requires more attention"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_mid.png'"
+                                width="750"
+                                height="415"
+                              />
                             </a>
                           </div>
-                        </div>
-                      </div>
+                          <h3 class="title">
+                            <a
+                              href="https://buhn.org/adolescent-mental-health-requires-more-attention"
+                              >Adolescent mental health requires more
+                              attention</a
+                            >
+                          </h3>
+                          <div class="post-meta">
+                            <p class="post-meta-inner">
+                              <span
+                                ><i class="icon-clock"></i>&nbsp;&nbsp;Jan 26,
+                                2023</span
+                              >
+                              <span><i class="icon-eye"></i>&nbsp;110</span>
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="post-image">
+                            <a href="https://buhn.org/blog-section">
+                              <span class="label-post-category">Blog</span>
+                            </a>
+                            <a
+                              href="https://buhn.org/teenage-pregnancy-motherhood-increased-in-urban-areas"
+                            >
+                              <img
+                                src="https://buhn.org/assets/img/bg_mid.png"
+                                data-src="https://buhn.org/uploads/images/202301/image_750x415_63d26eb1496f7.jpg"
+                                class="lazyload img-responsive"
+                                alt="Teenage pregnancy, motherhood increased in urban areas"
+                                onerror="javascript:this.src='https://buhn.org/assets/img/bg_mid.png'"
+                                width="750"
+                                height="415"
+                              />
+                            </a>
+                          </div>
+                          <h3 class="title">
+                            <a
+                              href="https://buhn.org/teenage-pregnancy-motherhood-increased-in-urban-areas"
+                              >Teenage pregnancy, motherhood increased in urban
+                              areas</a
+                            >
+                          </h3>
+                          <div class="post-meta">
+                            <p class="post-meta-inner">
+                              <span
+                                ><i class="icon-clock"></i>&nbsp;&nbsp;Jan 26,
+                                2023</span
+                              >
+                              <span><i class="icon-eye"></i>&nbsp;123</span>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                </aside>
-                <!--
-        <div class="col-sm-12 col-xs-12 sidebar-widget widget-popular-posts">
-        <div class="row">
+                </div>
+              </div>
+              <div class="col-sm-12 col-xs-12 sidebar-widget">
+                <div class="row">
+                  <div class="widget-title">
+                    <h4 class="title">Categories</h4>
+                  </div>
+                  <div class="col-sm-12 widget-body">
+                    <div class="row">
+                      <ul class="widget-list w-category-list">
+                        <li>
+                          <a href="https://buhn.org/news-section">News</a
+                          ><span>(10)</span>
+                        </li>
+                        <li>
+                          <a href="https://buhn.org/blog-section">Blog</a
+                          ><span>(4)</span>
+                        </li>
+                        <li>
+                          <a href="https://buhn.org/story">Story</a
+                          ><span>(12)</span>
+                        </li>
+                      </ul>
                     </div>
-    </div>
-    <div class="col-sm-12 col-xs-12 sidebar-widget">
-        <div class="row">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-xs-12 sidebar-widget">
+                <div class="row">
+                  <div class="widget-title">
+                    <h4 class="title">Tags</h4>
+                  </div>
+                  <div class="col-sm-12 widget-body">
+                    <div class="row">
+                      <ul class="widget-list w-tag-list">
+                        <li>
+                          <a href="https://buhn.org/tag/bangladesh-urban-health"
+                            >Bangladesh urban health</a
+                          >
+                        </li>
+                        <li><a href="https://buhn.org/tag/buhn">BUHN</a></li>
+                      </ul>
                     </div>
-    </div>
-    <div class="col-sm-12 col-xs-12 sidebar-widget">
-        <div class="row">
-                    </div>
-    </div>
-        <div class="col-sm-12 col-xs-12 sidebar-widget">
-        <div class="row">
-                    </div>
-    </div>
-    <div class="col-sm-12 col-xs-12 sidebar-widget">
-        <div class="row">
-                    </div>
-    </div>
-    <div class="col-sm-12 col-xs-12 sidebar-widget">
-        <div class="row">
-                    </div>
-    </div>
-    -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-xs-12 sidebar-widget">
+                <div class="row"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <script>
-      $("body").addClass("node-type-page");
-    </script>
+
     <script type="application/ld+json">
       [
         {
           "@context": "http://schema.org",
           "@type": "Organization",
-          "url": ".",
+          "url": "https://buhn.org",
           "logo": {
             "@type": "ImageObject",
             "width": 180,
             "height": 50,
-            "url": "./uploads/logo/logo_63972e9751a716-68071245-38310113.png"
+            "url": "./uploads/logo/WEb-BNCDF-LOG-01-01-copy.png"
           },
           "sameAs": ["https://www.facebook.com/profile.php?id=100069691086066"]
         },
         {
           "@context": "http://schema.org",
           "@type": "WebSite",
-          "url": ".",
+          "url": "https://buhn.org",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "./search?q={search_term_string}",
+            "target": "https://buhn.org/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         }
       ]
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "News",
+            "item": "https://buhn.org/news-section"
+          }
+        ]
+      }
     </script>
 
     <footer role="contentinfo">
@@ -1909,7 +2480,9 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
               <div class="tools">
                 <ul class="social visible-xs">
                   <li>
-                    <a href="#" target="_blank"
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100069691086066"
+                      target="_blank"
                       ><i class="fa fa-facebook"></i
                     ></a>
                   </li>
@@ -1966,7 +2539,7 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
             </div>
             <div class="col-xs-12 col-md-4 text-center">
               <img
-                src="uploads/images/front/footer_logo_small.png"
+                src="./uploads/images/front/footer_logo_small.png"
                 class=""
                 alt=""
               />
@@ -1978,26 +2551,23 @@ html not-front not-logged-in one-sidebar sidebar-second page-node page-node- pag
         <div class="container">
           <div class="row">
             <a
-              href="user.html"
+              href="#"
               class="hidden-sm hidden-md hidden-lg mobile-login"
               ><i class="fa fa-user"></i> Login</a
             >
             <div class="col-xs-12 col-sm-6 col-sm-push-6">
-              <p class="pull-left">Copyright © 2023 BNCDF</p>
+              <p class="pull-left">Copyright © 2023 BUHN</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-sm-pull-6">
               <p>
                 <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
                 <a href="terms-of-use.html">Terms of Use</a> &nbsp;|&nbsp;
-                <!--<a href="http://www.optimadesign.co.uk/" target="_blank">Website design by Optima</a>-->
               </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!--
-<a href="#" class="scrollup"><i class="icon-arrow-up"></i></a>-->
 
     <script src="./assets/vendor/slick/slick.min.js"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
