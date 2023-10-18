@@ -13,10 +13,6 @@
     />
     <meta name="keywords" content="" />
 
-    <meta name="robots" content="all" />
-    <meta name="revisit-after" content="1 Days" />
-    <meta property="og:locale" content="en-US" />
-
     <meta
       property="og:image"
       content="./uploads/logo/WEb-BNCDF-LOG-01-01-copy.png"
@@ -42,22 +38,7 @@
       content="Home - Bangladesh non-communicable Disease Forum(
       BNCDF)"
     />
-    <meta
-      name="twitter:description"
-      content="Bangladesh non-communicable Disease Forum(
-     regularly "
-      BNCDF)
-    />
-    <meta
-      name="twitter:image"
-      content="./uploads/logo/WEb-BNCDF-LOG-01-01-copy.png"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="./uploads/logo/WEb-BNCDF-LOG-01-01-copy.png"
-    />
-    <link rel="canonical" href="./" />
+
     <link rel="alternate" href="./" hreflang="en-US" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
@@ -82,19 +63,12 @@
     -->
     <!-- bncdf theme -->
     <style type="text/css" media="all">
-      @import url("./assets/css/buhn/system_base.css");
+      @import url("./assets/css/bncdf/system_base.css");
     </style>
-    <link rel="stylesheet" href="./assets/css/buhn/style.css" />
+    <link rel="stylesheet" href="./assets/css/bncdf/style.css" />
     <!-- bncdf theme-->
     <script src="./assets/js/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript">
-      <!--//--><![CDATA[//><!--
-      window.jQuery ||
-        document.write(
-          "<script src='https://buhn.org/assets/js/buhn/jquery1.10.min.js'>\x3C/script>"
-        );
-      //--><!]]>
-    </script>
+    <script type="text/javascript"></script>
     <script type="text/javascript">
       <!--//--><![CDATA[//><!--
       jQuery.migrateMute = true;
@@ -103,18 +77,18 @@
     </script>
     <script
       type="text/javascript"
-      src="../../assets/js/buhn/plugins-mina.js"
+      src="../../assets/js/bncdf/plugins-mina.js"
     ></script>
     <script
       type="text/javascript"
-      src="./assets/js/buhn/bootstrap-select.js"
+      src="./assets/js/bncdf/bootstrap-select.js"
     ></script>
     <script
       type="text/javascript"
-      src="./assets/js/buhn/onload-mina.js"
+      src="./assets/js/bncdf/onload-mina.js"
     ></script>
 
-    <script type="text/javascript" src="./assets/js/buhn/sod.js"></script>
+    <script type="text/javascript" src="./assets/js/bncdf/sod.js"></script>
     <script type="text/javascript">
       try {
         Typekit.load();
@@ -1154,6 +1128,12 @@
       .profile-details {
         margin-bottom: 40px;
       }
+      body.front .first-section .pos-1,
+      body.node-type-homepage .first-section .pos-1 {
+        margin-top: -111px;
+        left: 275px;
+        position: relative;
+      }
     </style>
     <header id="banner" role="banner">
       <div class="container relative">
@@ -1298,7 +1278,7 @@
                     <div class="content">
                       <ul role="menu" class="nav navbar-nav">
                         <li class="active" role="menuitem">
-                          <a href="https://bncdf.org">Home</a>
+                          <a href="#">Home</a>
                         </li>
                         <li data-target="#" class="dropdown-toggle">
                           <a href="#">Who We Are</a>
@@ -1574,18 +1554,18 @@
             <div
               class="col-xs-12 col-sm-4 col-lg-3 col-md-pull-1 hidden-xs pos-2"
             >
-              <img
-                src="./uploads/images/front/9.jpeg"
+              <!-- <img
+                src="./uploads/images/front/bncdffront.jpg"
                 class="img-responsive slab"
                 alt=""
-              />
+              /> -->
             </div>
             <div class="col-xs-12 col-sm-3 col-lg-3 hidden-xs pos-3">
-              <img
-                src="./uploads/images/front/10.jpeg"
+              <!-- <img
+                src="./uploads/images/front/bncdffrontimg.PNG"
                 class="img-responsive slab"
                 alt=""
-              />
+              /> -->
             </div>
           </div>
 
@@ -2353,7 +2333,7 @@
         {
           "@context": "http://schema.org",
           "@type": "Organization",
-          "url": "https://buhn.org",
+          "url": "#",
           "logo": {
             "@type": "ImageObject",
             "width": 180,
@@ -2365,7 +2345,7 @@
         {
           "@context": "http://schema.org",
           "@type": "WebSite",
-          "url": "https://buhn.org",
+          "url": "#",
           "potentialAction": {
             "@type": "SearchAction",
             "target": "./search?q={search_term_string}",
@@ -2465,15 +2445,12 @@
               <p>
                 <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
                 <a href="terms-of-use.html">Terms of Use</a> &nbsp;|&nbsp;
-                <!--<a href="http://www.optimadesign.co.uk/" target="_blank">Website design by Optima</a>-->
               </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!--
-<a href="#" class="scrollup"><i class="icon-arrow-up"></i></a>-->
 
     <script src="./assets/vendor/slick/slick.min.js"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
